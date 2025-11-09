@@ -1,29 +1,29 @@
 import React from 'react';
-import { Hero, Stats, FeaturedProducts, SubStores, Footer, PaymentInfo } from '../components';
-import styles from '../style';
+import { Hero, Stats, Business, SubStores, Footer, PaymentInfo, FAQ } from '../components';
 
 const Home = () => {
   return (
-    <div className="bg-white w-full">
+    <div className="bg-white w-full overflow-hidden">
       {/* Hero Section */}
-      <div className={`bg-white ${styles.flexStart}`}>
-        <div className={`${styles.boxWidth}`}>
-          <Hero />
-        </div>
-      </div>
+      <Hero />
+
+      {/* Stats Section */}
+      <Stats />
+
+      {/* Business/Features Section */}
+      <Business />
 
       {/* Payment Info Section */}
       <PaymentInfo />
 
-      {/* Main Content */}
-      <div className={`bg-white ${styles.paddingX} ${styles.flexStart}`}>
-        <div className={`${styles.boxWidth}`}>
-          <Stats />
-          {/* <FeaturedProducts /> */}
-          <SubStores />
-          <Footer />
-        </div>
-      </div>
+      {/* SubStores Section */}
+      <SubStores />
+
+      {/* FAQ Section */}
+      <FAQ />
+
+      {/* Footer */}
+      <Footer />
     </div>
   );
 };

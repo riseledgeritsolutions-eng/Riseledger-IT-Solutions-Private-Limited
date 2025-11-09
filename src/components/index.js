@@ -14,6 +14,7 @@ import FeaturedProducts from './FeaturedProducts'
 import SubStores from './SubStores'
 import ShoppingCart from './ShoppingCart'
 import PaymentInfo from './PaymentInfo'
+import FAQ from './FAQ'
 
 export {
     Billing,
@@ -31,5 +32,6 @@ export {
     FeaturedProducts,
     SubStores,
     ShoppingCart,
-    PaymentInfo
+    PaymentInfo,
+    FAQ
 }
