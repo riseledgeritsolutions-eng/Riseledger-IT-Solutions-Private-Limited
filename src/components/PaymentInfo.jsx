@@ -109,7 +109,7 @@ const PaymentInfo = () => {
               </p>
 
               <div className='space-y-3'>
-                {['Instant payment confirmation', 'No hidden charges', '24/7 availability'].map((item, i) => (
+                {['Real-time transaction updates', 'No hidden charges', '24/7 availability'].map((item, i) => (
                   <div key={i} className='flex items-center gap-3 bg-white/60 backdrop-blur-sm px-4 py-3 rounded-xl'>
                     <div className='w-6 h-6 bg-green-500 rounded-full flex items-center justify-center flex-shrink-0'>
                       <svg className='w-4 h-4 text-white' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
@@ -144,7 +144,7 @@ const PaymentInfo = () => {
               </p>
 
               <div className='space-y-3'>
-                {['Real-time transaction updates', 'Secure payment gateway', 'Wide merchant network'].map((item, i) => (
+                {['Instant payment confirmation', 'Secure payment gateway', 'Wide merchant network'].map((item, i) => (
                   <div key={i} className='flex items-center gap-3 bg-white/60 backdrop-blur-sm px-4 py-3 rounded-xl'>
                     <div className='w-6 h-6 bg-red-500 rounded-full flex items-center justify-center flex-shrink-0'>
                       <svg className='w-4 h-4 text-white' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
