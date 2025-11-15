@@ -391,19 +391,7 @@ export const substores = [
     address: "House No.11-109 Julahaan Street Bazar, Ichra",
     logo: "/Ijaz-Botique.png",
   },
-  {
-    id: "substore-11",
-    name: "Royal Rest Lounge",
-    description: "Premium lounge furniture and comfortable seating solutions",
-    category: "Furniture & Home",
-    rating: 4.9,
-    productsCount: 35,
-    featured: true,
-    url: "https://royal-rest-lounge.myshopify.com/",
-    email: "contact@royalrestlounge.com",
-    address: "Lahore, Pakistan",
-    logo: "/RoyalRestLoungeLogo.jpg",
-  },
+ 
 ];
 
 // Products
